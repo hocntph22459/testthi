@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "name": "sản phẩm a",
+      "price": 1000,
+      "id": "VWIsGa8K",
+      "description": "sản phẩm đang sale"
+    },
+    {
+      "name": "sản phẩm b1",
+      "price": "10001",
+      "description": "sản phẩm đang sale1",
+      "id": "rcPssr6iy"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "hoangnm",
+      "password": "1234567"
+    },
+    {
+      "username": "a",
+      "email": "a",
+      "password": "a",
+      "id": "Y8bfgwk"
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": "HmIrB4F"
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a12",
+      "id": "LIVJgWt"
+    }
+  ]
+}

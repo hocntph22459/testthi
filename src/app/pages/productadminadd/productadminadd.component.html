@@ -1,0 +1,17 @@
+<form [formGroup]="formProduct" (ngSubmit)="submitForm()" action="">
+    <div>
+        <label for="">name</label>
+        <input formControlName="name" type="text" >
+    </div>
+    <div>
+        <label for="">price</label>
+        <input formControlName="price" type="text" >
+    </div>
+    <div>
+        <label for="">description</label>
+        <input formControlName="description" >
+    </div>
+    <div>
+        <button [disabled]="!formProduct.valid">add</button>
+    </div>
+</form>
